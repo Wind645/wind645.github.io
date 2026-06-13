@@ -173,6 +173,23 @@ main {
   gap: 18px;
 }
 
+.news-list {
+  display: grid;
+  gap: 10px;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.news-date {
+  margin: 0;
+  color: var(--muted);
+}
+
 .list-item + .list-item {
   padding-top: 18px;
 }
@@ -213,6 +230,11 @@ main {
 
   .identity-text h1 {
     font-size: 1.65rem;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 
   .header-meta {
