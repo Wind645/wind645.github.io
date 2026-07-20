@@ -151,6 +151,12 @@ a:focus-visible {
   padding: 0 0 22px;
 }
 
+.content-section + .content-section {
+  margin-top: 10px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+
 .section-heading {
   display: flex;
   align-items: baseline;
